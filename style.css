@@ -1,0 +1,130 @@
+.navbar{
+    position: relative;
+    z-index: 1;
+}
+.navbar-brand{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 32px;
+    color: beige;
+    text-shadow: 1px 1px 1px rgb(0,0,0,0.7);
+
+}
+.nav-link{
+    color: beige;
+    text-transform: uppercase;
+    margin-right:30px;
+    text-shadow: 1px 1px 1px rgb(0,0,0,0.7);
+}
+.container{
+    position: relative;
+    z-index: 1;
+}
+.jumbotron{
+    background-image: url(img/jumbotron-bg.jpg);
+    background-size: cover;
+    height: 640px;
+    margin-top: -75px;
+    text-align: center;
+}
+.jumbotron::after{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1),rgba(0,0,0,0));
+    position: absolute;
+    bottom:0;
+}
+.info-panel{
+    box-shadow: 0 3px 20px rgba(0,0,0, 0.7);
+    border-radius: 12px;
+    background-color: white;
+    margin-top: -50px;
+    padding: 30px;
+}
+.info-panel img{
+    height: 80px;
+    width: 80px;
+}
+.info-panel h4{
+    font-weight: bolder;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.info-panel p{
+    color: #ACACAC;
+}
+.workingspace{
+    margin-top: 120px;
+}
+.workingspace h3{
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 52px;
+    margin-top: 50px;
+}
+.workingspace span{
+    font-weight: bold;
+}
+.workingspace p{
+    color: #ACACAC;
+    font-family: 200;
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+section h5{
+    margin-top: 100px;
+    font-size: 32px;
+    font-weight: 200;
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+.testimonial img{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 60px;
+    margin-top: 20px;
+    opacity: 0.6;
+}
+.testimonial img.utama{
+    width: 90px;
+    opacity: 1;
+    margin-top: -5px;
+    
+}
+h6{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+.testimonial p{
+    text-align:center ;
+    margin-top: 10px;
+    color: #ACACAC;
+}
+footer{
+    margin-top: 100px;
+    color: #ACACAC;
+    font-size: 18px;
+}
+.tombol{
+    border-radius: 25px;
+    color: beige;
+    text-transform: uppercase;
+}
+.display-4{
+    margin-top:150px;
+    color: beige;
+    font-weight: 200;
+    margin-bottom: 60px;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+
+span{
+    font-weight: 500;
+
+}
